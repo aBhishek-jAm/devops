@@ -1,0 +1,9 @@
+mvn archetype:generate
+default apply filter and version number
+give groupID and artifactID
+default SNAPSHOTID but give packageID
+cd artifactID
+mvn compile
+mvn test
+mvn package
+java -cp: target\SNAPSHOT packageID.App
