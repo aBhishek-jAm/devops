@@ -1,0 +1,8 @@
+mkdir projectfile
+cd projectfile
+git init
+vi file.txt
+git add *
+git commit -m"added"
+git remote add origin githubrepourl
+git push -u origin master
