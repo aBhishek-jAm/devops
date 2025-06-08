@@ -1,0 +1,19 @@
+wsl --install
+sudo apt update
+sudo apt upgrade -y
+sudo apt install ansible -y
+ansible --version
+nano hosts.ini
+[local]
+localhost ansible_connection=local
+crtl+o enter crtl+x
+nano setup.yml
+- name: Basic Server Setup
+  hosts: local
+  become: true
+  tasks:
+    - name: Example task
+      debug:
+        msg: "Hello, this is a basic setup"
+crtl+o enter crtl+x
+ansible-playbook -i hosts.ini setup.yml
