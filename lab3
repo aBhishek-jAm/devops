@@ -1,0 +1,5 @@
+gradle init
+give project type as application,implementation lang JAVA, DSL as kotlin and test framework as JUnit4
+give project name rest are default
+gradle build
+gradle run
