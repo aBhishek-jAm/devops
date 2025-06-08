@@ -1,0 +1,16 @@
+mvn archetype:generate
+same as lab2 steps for setup
+change java code if needed
+mvn clean install
+mvn exec:java -Dexec.mainClass="packageID.App"
+gradle init
+give dsl as groovy rest same
+notepad build.gradle
+apply plugin: 'application'
+mainClassName = 'packageID.App'
+save nd close
+gradlew run
+
+if dint run change java version
+set JAVA_HOME="java 17 path"
+set PATH=%JAVA_HOME%\bin;%PATH%
