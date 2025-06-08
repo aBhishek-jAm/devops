@@ -1,0 +1,5 @@
+download jenkins from download and deploy section
+choose stable(lts) version and windows supported .msi file
+start the installation part by keeping default path for installation, run service as LocalSystem, test port, set java path and click next for installation
+copy the initialAdmin password from given path and paste.
+install suggested plugin, and setup the profile
